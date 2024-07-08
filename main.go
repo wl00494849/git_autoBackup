@@ -4,16 +4,24 @@ import (
 	"fmt"
 )
 
+var _account string
+var _token string
+
+func init() {
+	fmt.Printf("Enter your github account:")
+	fmt.Scanln(&_account)
+	fmt.Printf("Enter your github token:")
+	fmt.Scanln(&_token)
+}
+
 func main() {
-	var account string
-	var token string
+	for true {
 
-	fmt.Println("Enter your github account")
-	fmt.Scanln(&account)
-	fmt.Println("Enter your github token")
-	fmt.Scanln(&token)
+	}
+	fmt.Println(_account)
+	fmt.Println(_token)
+}
 
-	fmt.Println(account)
-	fmt.Println(token)
+func cmd() {
 
 }
